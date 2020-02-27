@@ -1,0 +1,423 @@
+/* index.html CSS */
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.h1{
+  font-size: 40px; 
+  text-align:center ;
+}
+
+/*Parallax Effect*/
+a {
+  color: black;
+}
+
+.BackGroundImg1 .BackGroundImg2,.BackGroundImg3 {
+  position: relative; /* relative to itself natural position flow*/ 
+  opacity: 0.65; /*makes background image transparent*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.BackGroundImg1 {
+  background-image: url("https://bit.ly/30L82lq");
+  min-height: 400px;/*No matter the screen size it won't go below that height*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.BackGroundImg2 {
+  background-image: url("https://bit.ly/38vLhof");
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.BackGroundImg3 {
+  background-image: url("https://bit.ly/38vLhof");
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.Box1 p {
+  padding-left: 65px;
+  padding-right: 65px;
+  padding-top: 25px;
+  padding-bottom: 45px;
+  text-align: left;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 150px;
+}
+
+.Box2 {
+  padding-left: 65px;
+  padding-right: 65px;
+  padding-top: 25px;
+  padding-bottom: 45px;
+  text-align: left;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 150px;
+}
+
+.FunFacts {
+  color: black;
+  text-align: center;
+  font-size: 35px;
+  margin-left:150px;
+}
+
+/*Navagation bar*/
+.navList {
+  list-style: none;
+  font-size: 20px;
+  background-color: black;
+}
+
+.navListLi {
+  display: inline-block;
+  padding: 0px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+/*Footer*/
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: black;
+  width: 100%;
+}
+.socialMediaFooter {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.copyrightFooter {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+/*ToDo.html CSS*/
+
+/*hero*/
+.hero {
+  background: center url("https://bit.ly/2RILu0p");
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.heroText {
+  font-size: 40px;
+  text-align: center;
+}
+
+.h2ToDoSports {
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+
+.h3ToDoSports {
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
+.ToDoParagraphs {
+  color: black;
+  text-align: left;
+  font: 18px arial, sans-serif;
+}
+.FirstRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top:35px;
+  margin-bottom:35px;
+}
+.FirstSquare {
+  background-color: skyblue;
+  width: 500px;
+  padding: 10px;
+  border: 5px solid black;
+  margin-left: 100px;
+}
+
+.CampNouImage {
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.SecondSquare {
+  background-color: #f4b084;/*hex decimal color*/
+  width: 500px;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 0;
+  margin-right: 100px;
+}
+
+.RunningBullImg {
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.SecondRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top:35px;
+  margin-bottom:35px;
+}
+.ThirdSquare {
+  background-color: #f4b084;
+  width: 500px;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 0;
+}
+.RoyalPalaceImg {
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.FourthSquare {
+  background-color: skyblue;
+  width: 500px;
+  padding: 10px;
+  border: 5px solid black;
+}
+
+.ThirdRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top:35px;
+  margin-bottom:35px;
+}
+
+.MuseoDePradoImg {
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.FifthSquare {
+  background-color: skyblue;
+  width: 500px;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 0;
+  margin-left: 100px;
+}
+
+.LaTomatinaImg {
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.SixthSquare {
+  background-color: #f4b084;
+  width: 500px;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 0;
+  margin-right: 100px;
+}
+
+.FeriaDeSevillaImg {
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.FourthRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top:35px;
+  margin-bottom:35px;
+}
+
+.SeventhSquare {
+  background-color: #f4b084;
+  width: 500px;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 0;
+}
+
+.BalearicIslandsImg {
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.EighthSquare {
+  background-color: skyblue;
+  width: 500px;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 0;
+  justify-content: center;
+}
+
+.CanaryIslandImg {
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*ItPage.html*/
+/*--hero--*/
+
+.heroIt {
+  background: center url("https://bit.ly/37nHb1j");
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.AntaiLogoImg {
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.AmazonLogoImg {
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.WallaPopLogoImg {
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.KoukioLogoImg {
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.CiklumLogoImg {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.MobileO2OLogoImg {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ContactPage.html CSS*/
+.heroContactPage {
+  background: center url("https://bit.ly/2Rm0a6G");
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.contact {
+  color: black;
+}
+
+.ContactForm {
+  color: black;
+  text-align: left;
+  justify-content: center;
+  margin: auto;
+  width: 40%;
+  height: 400px;
+  padding: 15px;
+  font-size: 25px;
+}
+
+label {
+  height: 20px;
+  width: 50px;
+}
+
+.FormNumAdd {
+  height: 20px;
+  width: 400px;
+}
+.FormNames {
+  height: 20px;
+  width: 400px;
+}
+
+/*Media Quiery makes website accessable for mobile devices/shrink page */
+@media only screen and (max-width: 720px) {
+  .FirstRow {
+    flex-direction: column;
+  }
+  .SecondRow {
+    flex-direction: column;
+  }
+  .ThirdRow {
+    flex-direction: column;
+  }
+  .FourthRow {
+    flex-direction: column;
+  }
+}
